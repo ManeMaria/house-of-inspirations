@@ -9,7 +9,7 @@ export const ListCards: React.FC = () => {
       <PreviewCard
         title="First letter uppercase"
         href="/style-css/Element-1"
-        linkSocialMedia="/"
+        linkSocialMedia="https://www.instagram.com/p/CaDR3caBrD4/"
         pathGif={img1}
       />
     </Flex>
