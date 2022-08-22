@@ -1,11 +1,12 @@
 import { extendTheme } from '@chakra-ui/react'
-import { fonts } from './fundantions/fonts'
-import { colors } from './fundantions/colors'
+import { fonts, colors, typography } from './fundantions'
+
 
 
 export const theme = extendTheme({
   fonts,
   colors,
+  ...typography,
   styles: {
     global: () => ({
       html: {
